@@ -29,12 +29,104 @@
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#work-experience" onclick="toggleMenu()">Work Experience</a></li>
+          <li>
+            <a href="#work-experience" onclick="toggleMenu()"
+              >Work Experience</a
+            >
+          </li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contacts" onclick="toggleMenu()">Contacts</a></li>
         </div>
       </div>
     </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img
+          src="../Assests/new profile.png"
+          alt="Rajdeep Das Profile Picture"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello I'm</p>
+        <h1 class="title">Rajdeep Das</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('/Assests/resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contacts'">
+            Contact Info
+          </button>
+        </div>
+        <div id="social-container">
+          <img
+            src="../Assests/linkedin.png"
+            alt="My LinkedIn Profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/rajdeep-das350/'"
+          />
+          <img
+            src="../Assests/github.png"
+            alt="My Github Profile"
+            class="icon"
+            onclick="location.href='https://github.com/rajdeepdas350'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get to Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="../Assests/new2.jpg"
+            alt="profile picture"
+            class="about picture"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-container">
+            <div class="details-container">
+              <img
+                src="../Assests/experience.png"
+                alt="experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>
+                2+ years <br />
+                Android Developer
+              </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="../Assests/education.png"
+                alt="education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>
+                <span>Bachelors of Technology</span><br />
+                Computer Science and Engineering
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae corporis quibusdam quas explicabo aut alias dicta
+              dignissimos saepe, commodi nobis temporibus amet ea cum
+              repellendus.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img src="../Assests/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
 
     <script src="../JS/action.js"></script>
   </body>
