@@ -158,7 +158,7 @@ section {
   font-size: 3rem;
   text-align: center;
 }
-#social-container{
+#social-container {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
@@ -170,71 +170,189 @@ section {
   height: 2rem;
 }
 /* Buttons */
-.btn-container{
+.btn-container {
   display: flex;
   justify-content: center;
   gap: 1rem;
 }
-.btn{
+.btn {
   font-weight: 600;
   transition: all 300ms ease;
   padding: 1rem;
   width: 8rem;
   border-radius: 2rem;
 }
-.btn-color-1:hover
-.btn-color-2:hover{
-  cursor: pointer ;
+.btn-color-1:hover .btn-color-2:hover {
+  cursor: pointer;
 }
 .btn-color-1,
-.btn-color-2:hover{
-  background-color: rgb(53,53,53);
+.btn-color-2:hover {
+  background-color: rgb(53, 53, 53);
   color: white;
 }
 
-.btn-color-1:hover{
-  background-color: rgb(0,0,0);
+.btn-color-1:hover {
+  background-color: rgb(0, 0, 0);
 }
 
 /* ABOUT SECTION */
-#about{
+#about {
   position: relative;
 }
-.about-container{
+.about-container {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
-.about-details-container{
+.about-details-container {
   justify-content: center;
   flex-direction: column;
 }
 .about-container,
-.about-details-container{
+.about-details-container {
   display: flex;
 }
-.about-pic{
+.about-pic {
   border-radius: 2rem;
 }
-.arrow{
+.arrow {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
 }
-.details-container{
+.details-container {
   padding: 1.5rem;
   flex: 1;
   background: white;
   border-radius: 2rem;
-  border: rgb(53,53,53) 0.1rem solid;
+  border: rgb(53, 53, 53) 0.1rem solid;
   text-align: center;
 }
-.section-container{
+.section-container {
   gap: 4rem;
   height: 80%;
 }
-.section__pic-container{
+.section__pic-container {
   height: 400px;
   width: 400px;
   margin: auto 0;
+}
+.text-container {
+  text-align: justify;
+}
+/* Experience */
+#experience {
+  position: relative;
+}
+.experience-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+article {
+  display: flex;
+  width: 10rem;
+  justify-content: center;
+  gap: 0.5rem;
+}
+article .icon {
+  cursor: default;
+}
+/* Project Section */
+#projects {
+  position: relative;
+}
+.color-container {
+  border-color: rgb(163, 163, 163);
+  /* background: rgb(250,250,250); */
+}
+.project-img {
+  border-radius: 2rem;
+  width: 95%;
+  height: 60%;
+}
+.project-title {
+  min-height: 60px;
+  margin: 1rem;
+  color: black;
+  font-size: 1rem;
+}
+.project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
+
+#project .details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures uniform spacing */
+  align-items: center;
+  text-align: center;
+  height: 400px; /* Set a fixed height for all project cards */
+  padding: 20px;
+}
+#project .btn-container {
+  margin-top: auto; /* Pushes the GitHub icon to the bottom */
+}
+#project .icon {
+  width: 40px; /* Ensures uniform icon size */
+  height: 40px;
+  cursor: pointer;
+}
+
+/* Contact */
+#contacts {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p{
+  font-size: larger;
+}
+.contact-icon{
+  cursor: default;
+}
+.email-icon{
+  height: 2.5rem;
+}
+/* Foooter */
+footer{
+  height: 26vh;
+  margin: 0 1rem;
+}
+footer{
+  text-align: center;
 }
